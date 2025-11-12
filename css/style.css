@@ -1,0 +1,94 @@
+/* figtree-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/figtree-v9-latin-500.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Figtree";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/figtree-v9-latin-800.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+
+  background-color: #f4d04e;
+  color: #111111;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #fff;
+  padding: 24px;
+  border: 1px solid #111111;
+  border-radius: 20px;
+
+  box-shadow: 8px 8px 0px 0px #000000;
+}
+.card-image {
+  margin-bottom: 24px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 12px;
+}
+.card-link {
+  padding: 4px 12px;
+  background-color: #f4d04e;
+  border-radius: 4px;
+  font-weight: 800;
+}
+.card-title {
+  font-weight: 800;
+  font-size: 24px;
+}
+.card-desc {
+  max-width: 336px;
+  font-size: 16px;
+  color: #7f7f7f;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.profile-image {
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile-title {
+  font-weight: 800px;
+}
